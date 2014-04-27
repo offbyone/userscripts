@@ -3,8 +3,8 @@
     "content_scripts": [ {
         "exclude_globs":    [  ],
         "include_globs":    [ "*" ],
-        "js":               [ "jquery-2.1.0.min.js", "show-the-hotness.user.js" ],
-        "css":              [ "lit.css" ],
+        "js":               [ "js/jquery-2.1.0.min.js", "show-the-hotness.user.js" ],
+        "css":              [ "css/lit.css" ],
         "matches":          [   "http://literotica.com/stories/new_submissions.php*",
                                 "http://*.literotica.com/stories/new_submissions.php*",
                                 "https://literotica.com/stories/new_submissions.php*",
@@ -14,5 +14,8 @@
     } ],
     "description":  "Options to filter stories on Literotica",
     "name":         "Show the Hotness",
+    "icons": { "16": "img/icon16.png",
+               "48": "img/icon48.png",
+               "128": "img/icon128.png" },
     "version":      "1"
 }
