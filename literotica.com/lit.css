@@ -1,0 +1,9 @@
+.story-header {
+    font-weight: bold;
+    font-family: Verdana, Arial, Helvetica;
+    font-size: 24px;
+}
+
+div.story {
+    display: inline;
+}
